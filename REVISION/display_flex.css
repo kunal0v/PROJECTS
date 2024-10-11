@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#child1{
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+}
+
+#child2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+#child3{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}

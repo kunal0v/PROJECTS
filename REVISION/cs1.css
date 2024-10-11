@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:aqua; */
+}
+h1{
+    color: aqua;
+    background-color: blue;
+}
+h2{
+    color: yellow;
+    background-color: black;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 100;
+
+}
+#box{
+    height: 200px;
+    width:200px;
+    background-color: blue;
+    margin: 50px;
+    padding: 12px;
+    padding: 3px;
+}
+#box1{
+    height: 200px;
+    width:200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: blueviolet;
+}
+h3{
+    color: gold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:cursive;
+    font-size: 50px;
+    font-weight: 700;
+}
